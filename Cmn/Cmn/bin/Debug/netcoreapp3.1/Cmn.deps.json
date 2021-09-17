@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Cmn/1.0.0": {
+        "dependencies": {
+          "OutputResults": "1.0.0"
+        },
+        "runtime": {
+          "Cmn.dll": {}
+        }
+      },
+      "OutputResults/1.0.0": {
+        "runtime": {
+          "OutputResults.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cmn/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OutputResults/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

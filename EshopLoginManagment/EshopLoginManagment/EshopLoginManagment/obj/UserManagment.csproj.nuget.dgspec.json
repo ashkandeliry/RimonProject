@@ -1,0 +1,651 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\EshopLoginManagment\\EshopLoginManagment\\EshopLoginManagment\\UserManagment.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Cmn\\Cmn\\Cmn.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Cmn\\Cmn\\Cmn.csproj",
+        "projectName": "Cmn",
+        "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Cmn\\Cmn\\Cmn.csproj",
+        "packagesPath": "C:\\Users\\Laptop_Karina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Cmn\\Cmn\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Laptop_Karina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\OutputResults\\OutputResults\\OutputResults.csproj": {
+                "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\OutputResults\\OutputResults\\OutputResults.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\DataAccessLayer\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\DataAccessLayer\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\DataAccessLayer\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Laptop_Karina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\DataAccessLayer\\DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Laptop_Karina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Prototypes\\Prototypes\\Prototypes.csproj": {
+                "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Prototypes\\Prototypes\\Prototypes.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\EshopLoginManagment\\EshopLoginManagment\\EshopLoginManagment\\UserManagment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\EshopLoginManagment\\EshopLoginManagment\\EshopLoginManagment\\UserManagment.csproj",
+        "projectName": "UserManagment",
+        "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\EshopLoginManagment\\EshopLoginManagment\\EshopLoginManagment\\UserManagment.csproj",
+        "packagesPath": "C:\\Users\\Laptop_Karina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\EshopLoginManagment\\EshopLoginManagment\\EshopLoginManagment\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Laptop_Karina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Cmn\\Cmn\\Cmn.csproj": {
+                "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Cmn\\Cmn\\Cmn.csproj"
+              },
+              "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\DataAccessLayer\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\DataAccessLayer\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\LoggingLayer\\LoggingLayer\\LoggingLayer.csproj": {
+                "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\LoggingLayer\\LoggingLayer\\LoggingLayer.csproj"
+              },
+              "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\OutputResults\\OutputResults\\OutputResults.csproj": {
+                "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\OutputResults\\OutputResults\\OutputResults.csproj"
+              },
+              "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Prototypes\\Prototypes\\Prototypes.csproj": {
+                "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Prototypes\\Prototypes\\Prototypes.csproj"
+              },
+              "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\TokenManaging\\TokenManaging\\TokenManaging.csproj": {
+                "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\TokenManaging\\TokenManaging\\TokenManaging.csproj"
+              },
+              "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\WebApplication1\\SharedMethodsLib\\Mappers.csproj": {
+                "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\WebApplication1\\SharedMethodsLib\\Mappers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Enrichers.Context": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Enrichers.Process": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\LoggingLayer\\LoggingLayer\\LoggingLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\LoggingLayer\\LoggingLayer\\LoggingLayer.csproj",
+        "projectName": "LoggingLayer",
+        "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\LoggingLayer\\LoggingLayer\\LoggingLayer.csproj",
+        "packagesPath": "C:\\Users\\Laptop_Karina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\LoggingLayer\\LoggingLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Laptop_Karina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\OutputResults\\OutputResults\\OutputResults.csproj": {
+                "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\OutputResults\\OutputResults\\OutputResults.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\OutputResults\\OutputResults\\OutputResults.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\OutputResults\\OutputResults\\OutputResults.csproj",
+        "projectName": "OutputResults",
+        "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\OutputResults\\OutputResults\\OutputResults.csproj",
+        "packagesPath": "C:\\Users\\Laptop_Karina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\OutputResults\\OutputResults\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Laptop_Karina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Prototypes\\Prototypes\\Prototypes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Prototypes\\Prototypes\\Prototypes.csproj",
+        "projectName": "Prototypes",
+        "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Prototypes\\Prototypes\\Prototypes.csproj",
+        "packagesPath": "C:\\Users\\Laptop_Karina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Prototypes\\Prototypes\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Laptop_Karina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\TokenManaging\\TokenManaging\\TokenManaging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\TokenManaging\\TokenManaging\\TokenManaging.csproj",
+        "projectName": "TokenManaging",
+        "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\TokenManaging\\TokenManaging\\TokenManaging.csproj",
+        "packagesPath": "C:\\Users\\Laptop_Karina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\TokenManaging\\TokenManaging\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Laptop_Karina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Cmn\\Cmn\\Cmn.csproj": {
+                "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Cmn\\Cmn\\Cmn.csproj"
+              },
+              "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\OutputResults\\OutputResults\\OutputResults.csproj": {
+                "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\OutputResults\\OutputResults\\OutputResults.csproj"
+              },
+              "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Prototypes\\Prototypes\\Prototypes.csproj": {
+                "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\Prototypes\\Prototypes\\Prototypes.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\WebApplication1\\SharedMethodsLib\\Mappers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\WebApplication1\\SharedMethodsLib\\Mappers.csproj",
+        "projectName": "Mappers",
+        "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\WebApplication1\\SharedMethodsLib\\Mappers.csproj",
+        "packagesPath": "C:\\Users\\Laptop_Karina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\WebApplication1\\SharedMethodsLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Laptop_Karina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\OutputResults\\OutputResults\\OutputResults.csproj": {
+                "projectPath": "C:\\Users\\Laptop_Karina\\Desktop\\rimon\\OutputResults\\OutputResults\\OutputResults.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

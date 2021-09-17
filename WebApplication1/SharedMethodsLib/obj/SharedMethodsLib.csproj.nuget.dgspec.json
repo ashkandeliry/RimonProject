@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\EshopPrj\\Backend\\WebApplication1\\SharedMethodsLib\\SharedMethodsLib.csproj": {}
+  },
+  "projects": {
+    "G:\\EshopPrj\\Backend\\OutputResults\\OutputResults\\OutputResults.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\EshopPrj\\Backend\\OutputResults\\OutputResults\\OutputResults.csproj",
+        "projectName": "OutputResults",
+        "projectPath": "G:\\EshopPrj\\Backend\\OutputResults\\OutputResults\\OutputResults.csproj",
+        "packagesPath": "C:\\Users\\Laptop_Karina\\.nuget\\packages\\",
+        "outputPath": "G:\\EshopPrj\\Backend\\OutputResults\\OutputResults\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Laptop_Karina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\EshopPrj\\Backend\\WebApplication1\\SharedMethodsLib\\SharedMethodsLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\EshopPrj\\Backend\\WebApplication1\\SharedMethodsLib\\SharedMethodsLib.csproj",
+        "projectName": "SharedMethodsLib",
+        "projectPath": "G:\\EshopPrj\\Backend\\WebApplication1\\SharedMethodsLib\\SharedMethodsLib.csproj",
+        "packagesPath": "C:\\Users\\Laptop_Karina\\.nuget\\packages\\",
+        "outputPath": "G:\\EshopPrj\\Backend\\WebApplication1\\SharedMethodsLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Laptop_Karina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "G:\\EshopPrj\\Backend\\OutputResults\\OutputResults\\OutputResults.csproj": {
+                "projectPath": "G:\\EshopPrj\\Backend\\OutputResults\\OutputResults\\OutputResults.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

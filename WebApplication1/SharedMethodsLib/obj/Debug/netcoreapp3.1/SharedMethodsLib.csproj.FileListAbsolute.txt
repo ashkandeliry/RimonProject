@@ -1,0 +1,13 @@
+G:\EshopPrj\Backend\WebApplication1\SharedMethodsLib\bin\Debug\netcoreapp3.1\SharedMethodsLib.deps.json
+G:\EshopPrj\Backend\WebApplication1\SharedMethodsLib\bin\Debug\netcoreapp3.1\SharedMethodsLib.dll
+G:\EshopPrj\Backend\WebApplication1\SharedMethodsLib\bin\Debug\netcoreapp3.1\SharedMethodsLib.pdb
+G:\EshopPrj\Backend\WebApplication1\SharedMethodsLib\bin\Debug\netcoreapp3.1\AutoMapper.dll
+G:\EshopPrj\Backend\WebApplication1\SharedMethodsLib\obj\Debug\netcoreapp3.1\SharedMethodsLib.csproj.AssemblyReference.cache
+G:\EshopPrj\Backend\WebApplication1\SharedMethodsLib\obj\Debug\netcoreapp3.1\SharedMethodsLib.AssemblyInfoInputs.cache
+G:\EshopPrj\Backend\WebApplication1\SharedMethodsLib\obj\Debug\netcoreapp3.1\SharedMethodsLib.AssemblyInfo.cs
+G:\EshopPrj\Backend\WebApplication1\SharedMethodsLib\obj\Debug\netcoreapp3.1\SharedMethodsLib.csproj.CoreCompileInputs.cache
+G:\EshopPrj\Backend\WebApplication1\SharedMethodsLib\obj\Debug\netcoreapp3.1\SharedMethodsLib.csproj.CopyComplete
+G:\EshopPrj\Backend\WebApplication1\SharedMethodsLib\obj\Debug\netcoreapp3.1\SharedMethodsLib.dll
+G:\EshopPrj\Backend\WebApplication1\SharedMethodsLib\obj\Debug\netcoreapp3.1\SharedMethodsLib.pdb
+G:\EshopPrj\Backend\WebApplication1\SharedMethodsLib\bin\Debug\netcoreapp3.1\OutputResults.dll
+G:\EshopPrj\Backend\WebApplication1\SharedMethodsLib\bin\Debug\netcoreapp3.1\OutputResults.pdb

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Encryption\**" />
+    <EmbeddedResource Remove="Encryption\**" />
+    <None Remove="Encryption\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.12.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Cmn\Cmn\Cmn.csproj" />
+    <ProjectReference Include="..\..\OutputResults\OutputResults\OutputResults.csproj" />
+    <ProjectReference Include="..\..\Prototypes\Prototypes\Prototypes.csproj" />
+  </ItemGroup>
+
+</Project>
